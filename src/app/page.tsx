@@ -216,7 +216,7 @@ export default function Home() {
           </div>
 
           {/* Right: Visual cards (desktop only) */}
-          <div className="relative hidden min-h-[520px] lg:block">
+          <div className="relative hidden min-h-[580px] lg:block">
             {/* Card 1: tilted broadcast visual — 좌측 헤드라인 시작 높이에 맞춤 */}
             <div className="absolute right-8 top-8 w-72 rotate-3 transform rounded-2xl bg-gradient-to-br from-[#1a1a2e] to-[#2a4494] p-8 shadow-2xl transition-transform duration-500 hover:rotate-0">
               <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/10">
@@ -230,7 +230,7 @@ export default function Home() {
             </div>
 
             {/* Floating info card — 주황 카드 위쪽에 배치 */}
-            <div className="float-slow absolute left-4 top-52 z-10 rounded-xl bg-white/90 p-4 shadow-xl backdrop-blur-sm">
+            <div className="float-slow absolute left-4 top-44 z-10 rounded-xl bg-white/90 p-4 shadow-xl backdrop-blur-sm">
               <div className="flex items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#f8e8ee]">
                   <IconCheck />
@@ -243,7 +243,7 @@ export default function Home() {
             </div>
 
             {/* Card 2: tilted art visual — 파란 카드 아래, 겹치는 레이아웃 */}
-            <div className="absolute left-0 top-72 w-64 -rotate-3 transform rounded-2xl bg-gradient-to-br from-[#e85d3a] to-[#f09048] p-8 shadow-2xl transition-transform duration-500 hover:rotate-0">
+            <div className="absolute left-0 top-64 w-64 -rotate-3 transform rounded-2xl bg-gradient-to-br from-[#e85d3a] to-[#f09048] p-8 shadow-2xl transition-transform duration-500 hover:rotate-0">
               <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-white/20">
                 <svg className="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9.53 16.122a3 3 0 0 0-5.78 1.128 2.25 2.25 0 0 1-2.4 2.245 4.5 4.5 0 0 0 8.4-2.245c0-.399-.078-.78-.22-1.128Zm0 0a15.998 15.998 0 0 0 3.388-1.62m-5.043-.025a15.994 15.994 0 0 1 1.622-3.395m3.42 3.42a15.995 15.995 0 0 0 4.764-4.648l3.876-5.814a1.151 1.151 0 0 0-1.597-1.597L14.146 6.32a15.996 15.996 0 0 0-4.649 4.763m3.42 3.42a6.776 6.776 0 0 0-3.42-3.42" />
